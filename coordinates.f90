@@ -35,6 +35,11 @@ subroutine filegenerating(thefile, thetunnel, xxx, yyy, ppp)
 
     open(thetunnel, file=thefile)
 
+    write(thetunnel,'(a)') 'https://github.com/LiuGangKingston/Nestable-coordinate-system-for-Tikz-circuits.git'
+    write(thetunnel,'(a)') 'https://github.com/LiuGangKingston/Nestable-coordinate-system-for-Tikz-circuits.git'
+    write(thetunnel,'(a)') 
+    write(thetunnel,'(a)') 
+
     write(thetunnel,'(a)') macroset//'\total'//xxx//'}{26}'
     write(thetunnel,'(a)') macroset//'\total'//yyy//'}{26}'
     write(thetunnel,'(a)') macrosets//xxx//spacing//'}{1}'
@@ -83,6 +88,7 @@ program coordinates
     character (len=3)  :: pendkey = 'ppp'
     character (len=alength)  :: aword = ' '
     character (len=alength)  :: awordp= ' '
+
     write(*,*) 'If you want all the files: '
     write(*,*) '                "coordinates.tex" '
     write(*,*) '                "coorda.tex" '
@@ -130,3 +136,4 @@ program coordinates
     stop
 
 end program
+
