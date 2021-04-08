@@ -39,9 +39,9 @@ The new commands
     \coordinatebackground
     \coordinatebackgroundxy 
     
-for showing the coordinate are coded in the file 
+for showing the coordinate as reference backgrounds are coded in the file 
     afewmorecommandsintikzpiture.tex
-where their usages are also presented.
+where their usages are also given. They can only be used in the Tikz picture environment. 
 
 
 More derails are shown in the example(s). 
