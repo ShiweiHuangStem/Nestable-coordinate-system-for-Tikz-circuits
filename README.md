@@ -30,7 +30,7 @@ The CircuiTikz package is very helpful in circuit design. Here a new coordinate 
     \coordinate (KEYWORDpppzy) at (\KEYWORDxxxz, \KEYWORDyyyy);
     \coordinate (KEYWORDpppzz) at (\KEYWORDxxxz, \KEYWORDyyyz);
     
-where the coordinate setting is for all combinations of the xxx and yyy components. Any of the xxx and yyy components can be manually changed later to allocate spaces from the coordinate, then coordinates after it will be pushed the same distance as a whole.  Another way to get a new instance of the coordinate system is to copy the file coorddemobygangliu.tex into another then substitute all "demobygangliu" strings with the chosen KEYWORD inside the new file.
+where the coordinate setting is for all combinations of the xxx and yyy components. Any of the xxx and yyy components can be manually changed later to allocate spaces from the coordinate, then coordinates after it will be pushed the same distance as a whole.  Another way to get a new instance of the coordinate system is to copy the file coorddemobygangliu.tex in the example01 into another then substitute all "demobygangliu" strings with the chosen KEYWORD inside the new file.
 
 If circuits and/or parts of them are created by different specific instances of the coordinate system even by many people, they can be easily integrated, espectially some of them can be inserted into others then connected. 
 
